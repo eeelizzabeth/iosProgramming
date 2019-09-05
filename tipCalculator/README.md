@@ -28,8 +28,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
--file:///Users/eeelizabeth/Desktop/CST495/classWork/iosProgramming/tipCalculator/tipCalculatorDemo.gif
+<img src='file:///Users/eeelizabeth/Desktop/CST495/classWork/iosProgramming/tipCalculator/tipCalculatorDemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
