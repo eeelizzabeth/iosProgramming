@@ -28,8 +28,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
--file:///Users/eeelizabeth/Desktop/CST495/classWork/iosProgramming/tipCalculator/tipCalculatorDemo.gif
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/L0nkUdl" data-context="false" ><a href="//imgur.com/a/L0nkUdl"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
