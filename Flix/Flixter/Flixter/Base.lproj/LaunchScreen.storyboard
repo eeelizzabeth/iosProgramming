@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="STb-jI-DL6">
+                                <rect key="frame" x="138" y="286" width="138" height="139"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="Eei-ai-Ycj"/>
+                                    <constraint firstAttribute="height" constant="139" id="Qnd-v7-qQb"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="138" id="UA7-lw-adE"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="139" id="XA1-oT-efX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rj6-PY-DQ0">
+                                <rect key="frame" x="154" y="440.5" width="122" height="63.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="56"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="STb-jI-DL6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="242" id="Ebo-7w-P3G"/>
+                            <constraint firstItem="rj6-PY-DQ0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="154" id="GKi-vL-ZHP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rj6-PY-DQ0" secondAttribute="bottom" constant="358" id="Joy-Zd-2uR"/>
+                            <constraint firstItem="rj6-PY-DQ0" firstAttribute="firstBaseline" secondItem="STb-jI-DL6" secondAttribute="baseline" constant="69" id="RfX-es-Ot1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="STb-jI-DL6" secondAttribute="trailing" constant="138" id="UPW-yU-7nf"/>
+                            <constraint firstItem="STb-jI-DL6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="138" id="aze-iz-yjV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="STb-jI-DL6" secondAttribute="bottom" constant="437" id="dTO-Ki-KpL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rj6-PY-DQ0" secondAttribute="trailing" constant="138" id="kWg-OY-Jls"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch_image" width="138" height="139"/>
+    </resources>
+</document>
