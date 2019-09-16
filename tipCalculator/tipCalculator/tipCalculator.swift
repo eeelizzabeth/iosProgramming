@@ -31,4 +31,7 @@ class tipCalculator: UIViewController {
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
     }
+    @IBAction func settingButton(_ sender: UIButton) {
+        let settingsPage = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "settingsPage") as! PopUpViewController
+    }
 }
