@@ -43,7 +43,7 @@ Describe any challenges encountered while building the app.
 
 ### App Walkthough GIF
 
-<img src='flixterDemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='flixDemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### Notes
 
