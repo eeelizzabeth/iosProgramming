@@ -30,7 +30,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
             } else if let data = data,
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
                 
-                print(dataDictionary)
+                //print(dataDictionary)
                 
                 // TODO: Get the posts and store in posts property
                 
@@ -38,7 +38,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
                 let responseDictionary = dataDictionary["response"] as! [String: Any]
                 // Store the returned array of dictionaries in our posts property
                 self.posts = responseDictionary["posts"] as! [[String: Any]]
-                print(self.posts);
+                //print(self.posts);
                 
                 // TODO: Reload the table view
                 self.viewTable.reloadData()
@@ -71,5 +71,21 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         
         return cell
     }
+    // MARK: - Navigation
 
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // Find the selected post
+
+        let cell = sender as! UITableViewCell
+        let indexPath = viewTable.indexPath(for: cell)!
+        let photo = posts[indexPath.row]
+        
+        // Pass the selected post to photo details view controller
+        let detailsViewController = segue.destination as! PhotoDetailsViewController
+        detailsViewController.post = photo
+        
+        viewTable.deselectRow(at: indexPath, animated: true)
+    }
 }
